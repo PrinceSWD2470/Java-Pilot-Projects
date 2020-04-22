@@ -16,13 +16,6 @@ class CalculateSum {
 
 		for (long i = startingNumber; i <= endingNumber; i++) {
 			sum += i;
-			/*
-			try{
-				Thread.sleep(100);
-			} catch(InterruptedException ie){
-				Thread.currentThread().interrupted();
-			}
-			*/
 		}
 		System.out.println(sum);
 
